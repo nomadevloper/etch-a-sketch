@@ -4,21 +4,17 @@
     border: 1px solid black;
     /* height: 800px; */
     width: 480px;
+    height: 480px;
 
 }
 
 .row {
-    /* border: 1px solid black; */
     flex-grow: 1;
-
     display: flex;
 }
 
 .grid {
-    /* border: 1px solid black; */
     flex-grow: 1;
-    width: 30px;
-    height: 30px;
 }
 
 .grid:hover {
@@ -27,4 +23,8 @@
 
 .clicked {
     background-color: black;
+}
+
+button {
+    margin: 14px 0;
 }
